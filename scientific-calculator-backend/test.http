@@ -1,0 +1,9 @@
+POST http://localhost:5000/calculate
+Content-Type: application/json
+
+{
+  "expression": "x**2",
+  "variable": "x",
+  "lower_limit": 0,
+  "upper_limit": 8
+}
